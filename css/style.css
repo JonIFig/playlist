@@ -1,5 +1,21 @@
+body{
+  background-color: black;
+  color: red;
+}
+
 h1 {
   text-align: center;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 14px;
 }
 
 .display {
@@ -11,7 +27,13 @@ h1 {
 
 .column {
   width: 18%;
-  padding: 25px 0px;
+  padding: 25px 0;
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
 }
 
 .images img {
@@ -21,7 +43,7 @@ h1 {
   margin: 20px;
 }
 
-.songs p {
+.songs p, .numbers p {
   font-size: 18px;
   height: 100px;
   font-weight: bold;
@@ -47,20 +69,17 @@ h1 {
   height: 100px;
   font-weight: bold;
   margin: 20px;
+  color: lightgreen;
 }
 
-.form {
-  width: 75%;
-  margin: 0 auto 20px auto;
+.links a:hover{
+  text-decoration: underline;
+}
+
+.deletes button{
+  display: block;
   font-size: 18px;
-}
-
-input {
-  padding: 5px 10px;
-  font-size: 14px;
-}
-
-button {
-  font-size: 14px;
-  padding: 5px 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
