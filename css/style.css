@@ -27,7 +27,7 @@ input {
 
 .column {
   width: 18%;
-  padding: 25px 0px;
+  padding: 25px 0;
 }
 
 .form {
@@ -73,7 +73,7 @@ input {
 }
 
 .links a:hover{
-  text-decoration: ;
+  text-decoration: underline;
 }
 
 .deletes button{
@@ -82,8 +82,4 @@ input {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 80px;
-}
-
-.buttons button{
-  margin-left: 150px;
 }

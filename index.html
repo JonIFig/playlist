@@ -1,49 +1,48 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>PlayList Project!</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-    <!-- Your CSS -->
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-  </head>
+<html lang="en">
+<head>
+	<title>PlayList Project!</title>
 
-  <body>
-    <h1>My Playlist</h1>
-    <div class="form">
-      
-      <p>Add a new song:</p>
-      <input placeholder="Song Name" class="song" />
-      <input placeholder="Artist Name" class="artist" />
-      <input placeholder="Song Length" class="length" />
-      <input placeholder="Image URL" class="image" />
-      <input placeholder="Song Link Address" class="link" />
-      <br>
-      <div class="buttons">
-        <button class="btn btn-success" id="add">Add</button>
-        <button class="btn btn-danger" id="delete">Delete All</button>
-        <button class="btn btn-warning" id="reset">Reset</button>
-        <button class="btn btn-info" id="shuffle">Shuffle!</button>
-      </div>
-      <br><br>
-      <p class="total">Total Songs:</p>
-    </div>
-    <div class="display">
-      <div class="column numbers"></div>
-      <div class="column images"></div>
-      <div class="column songs"></div>
-      <div class="column artists"></div>
-      <div class="column lengths"></div>
-      <div class="column links"></div>
-      <div class="column deletes"></div>
-    </div>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Your Javascript -->
-    <script src="js/script.js"></script>
-  </body>
+	<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+			integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+			crossorigin="anonymous"
+	/>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+	<h1>My Playlist</h1>
+	<div class="form">
+
+		<p>Add a new song:</p>
+		<input placeholder="Song Name" class="song"/>
+		<input placeholder="Artist Name" class="artist"/>
+		<input placeholder="Song Length" class="length"/>
+		<input placeholder="Image URL" class="image"/>
+		<input placeholder="Song Link Address" class="link"/>
+		<br>
+		<div class="buttons">
+			<button class="btn btn-success" id="add">Add</button>
+			<button class="btn btn-danger" id="delete">Delete All</button>
+			<button class="btn btn-warning" id="reset">Reset</button>
+			<button class="btn btn-info" id="shuffle">Shuffle!</button>
+		</div>
+		<br><br>
+		<p class="total">Total Songs:</p>
+	</div>
+	<div class="display">
+		<div class="column numbers"></div>
+		<div class="column images"></div>
+		<div class="column songs"></div>
+		<div class="column artists"></div>
+		<div class="column lengths"></div>
+		<div class="column links"></div>
+		<div class="column deletes"></div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
 </html>
